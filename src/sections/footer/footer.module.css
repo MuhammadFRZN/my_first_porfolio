@@ -1,0 +1,71 @@
+.footer {
+  width: 100%;
+  background-color: #06192b;
+  color: whitesmoke;
+}
+
+.footerContainer {
+  display: flex;
+  padding: 6em;
+  justify-content: space-between;
+  margin-right: 3em;
+}
+
+.footerContainer article {
+  display: flex;
+  flex-direction: column;
+  padding-right: 3em;
+}
+
+article p {
+  padding: 6% 0 5%;
+}
+
+.logodsc {
+  text-align: center;
+}
+
+.mfhlogo {
+  width: 6em;
+}
+
+strong {
+  font-weight: normal;
+  text-align: center;
+  align-items: center;
+}
+
+.copyright {
+  text-align: center;
+  align-items: center;
+  background-color: #030f1a;
+  color: whitesmoke;
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  .footerContainer {
+    font-size: smaller;
+  }
+
+  .copyright {
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .footerContainer article {
+    margin-bottom: 3.5em;
+  }
+
+  .logodsc {
+    margin: 0;
+  }
+}

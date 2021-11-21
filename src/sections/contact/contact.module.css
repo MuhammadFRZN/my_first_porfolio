@@ -1,0 +1,179 @@
+.contact {
+  width: 100%;
+  height: calc(100vh - 60px);
+  top: 60px;
+  scroll-snap-align: end;
+  background-color: whitesmoke;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 0.5em;
+}
+
+.containers {
+  display: flex;
+}
+
+.imgContainer img {
+  height: 30em;
+}
+
+.mailContainer {
+  margin-top: 3%;
+  margin-left: 1em;
+}
+
+.mailContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.mailContainer form label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.mailContainer form input[type="email"],
+input[type="text"] {
+  margin-bottom: 1.3em;
+  padding: 0.9em;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  width: 23em;
+  height: 1.2em;
+  -webkit-box-shadow: 3px 5px 15px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 5px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mailContainer form textarea {
+  height: 9em;
+  padding: 1em;
+  border-radius: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  -webkit-box-shadow: 3px 5px 15px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 5px 15px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
+}
+
+.submitBtn {
+  margin-top: 1em;
+  padding: 1em;
+  align-items: center;
+  width: 8em;
+  height: 3.4em;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  background-color: #0971a6;
+  color: whitesmoke;
+  margin-left: 68%;
+  -webkit-box-shadow: 3px 3px 13px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 13px 2px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #075277;
+}
+
+.submitBtn:active {
+  background-color: #053750;
+}
+
+span {
+  font-size: 0.8em;
+  background-color: #55efc4;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 1.5em;
+    padding: 0.7em 0 0.6em 0;
+  }
+
+  .containers {
+    display: flex;
+    position: relative;
+    left: -9em;
+  }
+
+  .imgContainer {
+    width: 33em;
+  }
+
+  .imgContainer img {
+    height: 90%;
+  }
+
+  .mailContainer {
+    margin: 0;
+    font-size: smaller;
+  }
+
+  .mailContainer form {
+    padding-top: 1em;
+  }
+
+  .mailContainer form input[type="email"],
+  input[type="text"] {
+    font-size: 0.9em;
+    width: 20em;
+  }
+
+  .submitBtn {
+    margin-left: 11.8em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .containers {
+    display: flex;
+    flex-direction: column-reverse;
+    left: 0;
+    text-align: center;
+  }
+
+  .mailContainer {
+    margin-left: 32%;
+  }
+
+  .mailContainer form {
+    text-align: left;
+    padding-top: 0;
+  }
+
+  .mailContainer form label {
+    font-size: 0.9em;
+  }
+
+  .mailContainer form input[type="email"],
+  input[type="text"] {
+    font-size: 0.7em;
+    width: 20em;
+  }
+
+  .mailContainer form textarea {
+    width: 20em;
+    font-size: 0.7em;
+  }
+
+  .submitBtn {
+    margin-left: 7.5em;
+  }
+
+  .imgContainer {
+    width: auto;
+  }
+
+  .imgContainer img {
+    width: 67%;
+    top: -55px;
+    left: -50px;
+    position: relative;
+  }
+}
