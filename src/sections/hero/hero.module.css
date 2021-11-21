@@ -3,7 +3,7 @@
   height: 100vh;
   position: relative;
   scroll-snap-align: start;
-  /* background-color: black; */
+  background-color: black;
   overflow: hidden;
 }
 
@@ -88,11 +88,12 @@
 @media only screen and (max-width: 480px) {
   .herobg {
     left: -370px;
+    opacity: 50%;
   }
 
   .herotxt {
     font-size: smaller;
-    margin: 20em 30% 0;
+    margin: 15em 25% 0;
   }
 
   .herotxt h1 {

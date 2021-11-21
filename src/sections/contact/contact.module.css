@@ -139,7 +139,7 @@ span {
   }
 
   .mailContainer {
-    margin-left: 32%;
+    margin-left: 22%;
   }
 
   .mailContainer form {
@@ -171,9 +171,9 @@ span {
   }
 
   .imgContainer img {
-    width: 67%;
-    top: -55px;
-    left: -50px;
+    width: 65%;
+    top: -40px;
+    left: -80px;
     position: relative;
   }
 }

@@ -76,6 +76,14 @@
 
 @media only screen and (max-width: 480px) {
   .card {
-    padding: 2em;
+    padding: 1em;
+  }
+
+  .left img {
+    width: 10em;
+  }
+
+  .right {
+    padding: 0;
   }
 }
