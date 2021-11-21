@@ -3,7 +3,7 @@
   height: 100vh;
   position: relative;
   scroll-snap-align: start;
-  background-color: black;
+  /* background-color: black; */
   overflow: hidden;
 }
 
