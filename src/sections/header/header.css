@@ -97,7 +97,6 @@ li {
   }
 
   .hamburger {
-    /* position: absolute; */
     width: 32px;
     height: 25px;
     justify-content: space-between;
@@ -105,7 +104,6 @@ li {
     flex-direction: column;
     cursor: pointer;
     margin: 1em;
-    /* right: 1em; */
     z-index: 10;
   }
 
